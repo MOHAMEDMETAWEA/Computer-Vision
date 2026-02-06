@@ -1,0 +1,14 @@
+# Python bytecode and temporary files
+__pycache__/
+.ipynb_checkpoints/
+
+# Dataset folders (large files)
+data/
+
+# Packaging and distribution
+*.egg-info/
+dist/
+build/
+
+# Local configuration and credentials
+.env

@@ -1,0 +1,8 @@
+kagglehub      # Tool for downloading datasets from Kaggle
+pytesseract    # Python wrapper for Google's Tesseract-OCR engine
+Pillow         # Python Imaging Library for opening/manipulating images
+easyocr        # Deep learning based OCR for multiple languages
+boto3          # AWS SDK for Python (used for AWS Textract)
+opencv-python  # Open Source Computer Vision Library
+matplotlib     # Library for creating visualizations and plots
+numpy          # Fundamental package for scientific computing

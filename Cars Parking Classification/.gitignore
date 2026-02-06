@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Models
+model/*.p
+*.p
+
+# Virtual environments
+venv/
+.env/
+.venv/
+env/
+VirtualEnv/
+ENV/
+
+# Data (if you don't want to track datasets/videos)
+# clf-data/
+# data/
