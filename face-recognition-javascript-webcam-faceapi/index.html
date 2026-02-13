@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AI Face Recognition | Real-time Detection</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+    <script defer src="face-api.min.js"></script>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div id="loader">
+        <div class="spinner"></div>
+        <div class="status-text">Initializing AI Models...</div>
+    </div>
+
+    <div class="container">
+        <header class="header">
+            <h1>Face Intelligence</h1>
+            <p>Real-time facial recognition & feature extraction</p>
+        </header>
+
+        <div id="video-wrapper">
+            <video id="video" width="600" height="450" autoplay muted playsinline></video>
+        </div>
+
+        <div class="controls">
+            <div class="badge">Live Stream</div>
+            <div class="badge" id="recognition-status">Scanning...</div>
+        </div>
+    </div>
+</body>
+</html>
